@@ -1,15 +1,13 @@
 {
-	"name": "Node.js & TypeScript",
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
-	"features": {
-		"ghcr.io/devcontainers/features/aws-cli:1": {},
-		"ghcr.io/devcontainers/features/terraform:1": {}
-	},
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"mhutchie.git-graph"
-			]
-		}
-	}
+  "name": "Node.js & TypeScript",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/aws-cli:1": {},
+    "ghcr.io/devcontainers/features/terraform:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["mhutchie.git-graph", "esbenp.prettier-vscode"]
+    }
+  }
 }
